@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Coustard&family=Oxygen:wght@400;700&display=swap');
+/* font-family: 'Coustard', serif;
+font-family: 'Oxygen', sans-serif; */
+.container{
+    max-width: 1040px;
+}
+.team{
+    background-color: #72af3c;
+    padding: 90px 90px;
+}
+.title__holder{
+    overflow: hidden;
+}
+.section__title{
+    font-family: 'Coustard', serif;
+    font-size: 72px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-shadow: 0px 3px 0px rgba(0,0,0,0.2);
+    color: #ffffff;
+    display: inline-block;
+    padding: 0 25px;
+    position: relative;
+}
+.section__title::before,
+.section__title::after{
+    content: '';
+    position: absolute;
+    height: 13px;
+    border-top: 5px solid rgba(255, 255, 255, 0.4 );
+    border-bottom: 5px solid rgba(255, 255, 255, 0.4 );
+    top: 50%;
+    transform: translateY(-50%);
+    width: 999px;
+
+}
+.section__title::before{
+    left: 100%;
+}
+.section__title::after{
+    right: 100%;
+}
+.sub-title{
+    font-family: 'Coustard', serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-shadow: 0px 3px 0px rgba(0,0,0,0.2);
+    color: #ffffff;
+    padding: 12px 30px;
+    background-color: rgba(0,0,0,0.25);
+    display: inline-block;
+    border-radius: 50px;
+}
+.name_holder{
+    display: inline-block;
+}
+.name{
+    position: relative;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 22px;
+    line-height: 44px;
+    font-weight: 700;
+    text-shadow: 0px 3px 0px rgba(0,0,0,0.2);
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.name::before,
+.name::after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 999px;
+   background-color: rgba(255, 255, 255, 0.4 ) ; 
+}
+.name::before{
+    left: 100%;
+}
+.name::after{
+    right: 100%;
+}
+.name-holder{
+    overflow: hidden;
+}
+.col p{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    text-shadow: 0px 1px 0px rgba(0,0,0,0.1);
+    color: #ffffff;
+}
+.title__holder{
+    margin-bottom: 60px;
+}
+.sub-title-holder{
+    margin-bottom: 50px;
+}
