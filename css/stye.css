@@ -11,6 +11,7 @@ font-family: 'Oxygen', sans-serif; */
 }
 .title__holder{
     overflow: hidden;
+    width: 70%;
 }
 .section__title{
     font-family: 'Coustard', serif;
