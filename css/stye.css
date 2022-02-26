@@ -281,6 +281,9 @@ text-decoration: none;
         width: 170px;
     }
     .services{
-        padding-top: 170px
+        padding-top: 80px;
+    }
+    .media-btn{
+        margine-bottom: 40px;
     }
 }
